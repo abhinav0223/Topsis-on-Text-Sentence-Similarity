@@ -26,11 +26,7 @@ The models are ranked based on the weighted distances from the ideal best and wo
 | USE         | 0.82     | 10                  | 140               | 0.373025     |
 | SBERT       | 0.85     | 12                  | 150               | 0.148493     |
 
-## Graphical Representation
 
-Below is the graphical representation of the models' **TOPSIS Scores**:
-
-![TOPSIS Graph](images/topsis_graph.png)
 
 ## Conclusion
 Based on the analysis, **SimCSE** is the best model according to the TOPSIS ranking, followed closely by **DistilBERT**. **SBERT** ranks the lowest due to its higher inference time and memory usage.
